@@ -64,7 +64,7 @@ There are a few reasons. For one, I don't have the bandwidth to craft a polished
 
 Plus, intersection observer use cases vary widely. I'm focused on vertical visibility with two states: fully or partially visible. You might want visibility percentages or horizontal detection. There's also room for tons of micro-optimizations.
 
-I’m only concerned with rendering a handful of components - hundreds at most. But you might need to handle thousands of elements at the same time!
+I'm focused on rendering just a small number of components - hundreds tops. But you might be dealing with thousands of elements simultaneously! By the way, to manage that kind of volume, I'd suggest grouping some measure calls into batches and limiting them to a few batches within a set millisecond window.
 
 I decided it's better to share the concept and let you tailor the code to your liking.
 
