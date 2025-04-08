@@ -69,3 +69,11 @@ I'm focused on rendering just a small number of components - hundreds tops. But 
 I decided it's better to share the concept and let you tailor the code to your liking.
 
 That said, if enough folks request for an NPM package, I might whip one up and open it for contributions.
+
+## Known issues
+
+https://docs.swmansion.com/react-native-reanimated/docs/advanced/measure
+
+> measure isn't available with the Remote JS Debugger. We highly recommend using Chrome DevTools (also known as chrome://inspect) for debugging React Native apps.
+
+This implies that connecting a remote JS debugger to your React Native project will prevent `measure` from triggering, halting any calculations or data loading tied to intersection observers.
