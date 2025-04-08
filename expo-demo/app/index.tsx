@@ -10,7 +10,7 @@ export default function Index() {
   const scrollViewKey = "index-scroll-view";
 
   const viewKeys = useMemo<ViewKey[]>(() => {
-    const result = new Array(10).fill(0);
+    const result = new Array(200).fill(0);
 
     for (let i = 0; i < result.length; i++) {
       result[i] = `index-view-${i}`;

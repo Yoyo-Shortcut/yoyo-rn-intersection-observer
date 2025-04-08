@@ -64,6 +64,8 @@ There are a few reasons. For one, I don't have the bandwidth to craft a polished
 
 Plus, intersection observer use cases vary widely. I'm focused on vertical visibility with two states: fully or partially visible. You might want visibility percentages or horizontal detection. There's also room for tons of micro-optimizations.
 
+I’m only concerned with rendering a handful of components - hundreds at most. But you might need to handle thousands of elements at the same time!
+
 I decided it's better to share the concept and let you tailor the code to your liking.
 
 That said, if enough folks request for an NPM package, I might whip one up and open it for contributions.
