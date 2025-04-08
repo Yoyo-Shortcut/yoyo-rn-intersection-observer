@@ -13,5 +13,9 @@
   ],
   "eslint.useFlatConfig": false,
   // https://github.com/microsoft/vscode-eslint/issues/1669
-  "eslint.workingDirectories": [{ "pattern": "./expo-demo" }]
+  "eslint.workingDirectories": [
+    {
+      "pattern": "./expo-demo"
+    }
+  ]
 }
